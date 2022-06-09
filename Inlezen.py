@@ -1,4 +1,7 @@
-
+"""
+This file, "Inlezen.py" was used to read all data from the Twente and Drenthe databases and convert the data to a demand[postcode] dictionary, 
+a distance[postcode1][postcode2] dictionary for travel times and a binary k_ji dictionary which is 0 or 1 depending whether postal code i is reachable within 900 seconds from ambulance location j.
+"""
 import pandas as pd
 
 def DEMAND(file):
